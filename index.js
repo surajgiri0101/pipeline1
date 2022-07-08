@@ -7,6 +7,10 @@ app.get('/', (req, res)=>{
     res.send('CI/CD App, Works well !')
 })
 
+app.get('/', (req, res)=>{
+    res.send('hello suraj!')
+})
+
 app.get('/status', (req, res)=>{
     res.status(200)
     res.send('Okay')
